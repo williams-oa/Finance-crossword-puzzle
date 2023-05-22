@@ -1,0 +1,198 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="crossword_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=SWAP"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My crossword puzzle</title>
+  </head>
+
+  <body>
+    <nav>
+	<!-- <h2>Oluwarotimi Williams</h2> -->
+      <h1 class="Title">Financial Literacy game - Crossword Puzzle</h1>
+      <ul class="nav-list">
+		<p>Quick links:</p>
+        <li><a href="#Concept">Concept</a></li>
+        <li><a href="#Puzzle">Puzzle</a></li>
+        <li>
+          <a href="#References">References</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="front_page">
+      <div class="Details">
+        <h1 id="Concept" name="#Concept">Concept</h1>
+        <p class="con_text">
+          This game is a crossword puzzle with the answers as key financial
+          terms. The clues provide guidance on the financial term and players
+          win if they guess all terms correctly. The objective is for players to
+          develop their financial literacy by understanding the key financial
+          terms. The expectation is that players will carry out more research on
+          clues they don't understand so as to guess correctly and win.
+        </p>
+		<h3>Note: Answer must be in CAPS!</h3>
+        <button><a href="#Puzzle" class="play_link">Play</a></button>
+      </div>
+      <div>
+        <img class="crossword_pic" src="crossword.jpg" alt="My picture" />
+      </div>
+    </div>
+
+    <section class="Sect1">
+      <h2 id="Puzzle" name="#Puzzle">Puzzle</h2>
+      <div class="container">
+        <table>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="'MORTGAGE' 'MONEY'"><sup>1</sup>M</td>
+            <td class="'MONEY'">O</td>
+            <td class="'MONEY'">N</td>
+            <td class="'MONEY'">E</td>
+            <td class="'MONEY'">Y</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="'STOCK' 'SWAP'"><sup>2</sup>S</td>
+            <td class="'STOCK'">T</td>
+            <td class="'MORTGAGE' 'STOCK'">O</td>
+            <td class="'STOCK'">C</td>
+            <td class="'STOCK'">K</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="'SWAP'">W</td>
+            <td></td>
+            <td class="'MORTGAGE'">R</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="'SWAP'">A</td>
+            <td></td>
+            <td class="'MORTGAGE' 'TRADE'"><sup>3</sup>T</td>
+            <td class="'TRADE'">R</td>
+            <td class="'TRADE'">A</td>
+            <td class="'TRADE'">D</td>
+            <td class="'TRADE'">E</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="'SWAP'">P</td>
+            <td></td>
+            <td class="'MORTGAGE'">G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="'MORTGAGE'">A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="'MORTGAGE'">G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="'REVENUE'"><sup>4</sup>R</td>
+            <td class="'REVENUE'">E</td>
+            <td class="'REVENUE'">V</td>
+            <td class="'MORTGAGE' 'REVENUE'">E</td>
+            <td class="'REVENUE'">N</td>
+            <td class="'REVENUE'">U</td>
+            <td class="'REVENUE'">E</td>
+            <td></td>
+          </tr>
+        </table>
+        <p></p>
+        <script src="crossword.js"></script>
+        <form onsubmit="javascript:checkAnswer()" action="javascript: null">
+          <label for="Answer">YOUR ANSWER:</label>
+          <input type="text" id="Your Answer" />
+		  <input type="submit" value="SUBMIT">
+        </form>
+      </div>
+
+      <div class="clues">
+        <div>
+          <h2>Across</h2>
+          <ol>
+            <li>
+				a medium of exchange that is widely accepted in transactions for goods, services, and debts
+			</li>
+			<li>
+				the capital raised by a company or corporation through the issue and subscription of shares
+			</li>
+			<li>
+				the buying and selling of goods and services, typically in financial markets.
+			</li>
+			<li>
+				the total amount of money earned by a business before expenses are deducted.
+			</li>
+          </ol>
+        </div>
+        <div>
+          <h2>Down</h2>
+          <ol>
+            <li>
+              a loan used to purchase a property, where the property serves as
+              collateral for the loan
+            </li>
+			<li>
+				an agreement between two or more parties to exchange financial instruments or cash flows or payments for a certain time
+			</li>
+          </ol>
+        </div>
+      </div>
+	  
+    </section>
+
+    <footer>
+      <h2 class="References" id="References" name="#References">References:</h2>
+      <ul class="list" >
+        <li>
+          Code with Ania Kubów (2021, January 13). 12HR+ YouTube Coding
+          Bootcamp! [Video file]. Retrieved from
+          https://www.youtube.com/watch?v=Xm4BObh4MhI
+        </li>
+        <li>
+          Mr Cressey's Class Videos (2021, March 5). Making a crossword using
+          HTML and CSS - Part 1 [Video file]. Retrieved from
+          https://www.youtube.com/watch?v=U5U4MATC8S8&list=TLPQMjUwNDIwMjMiJuovyPwh9g&index=2&pp=gAQBiAQB
+        </li>
+        <li>
+          Mr Cressey's Class Videos (2021, March 5). Making a crossword using
+          HTML and CSS - Part 2 [Video file]. Retrieved from
+          https://www.youtube.com/watch?v=jupOu9EQKek&list=TLPQMjUwNDIwMjMiJuovyPwh9g&index=3
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
