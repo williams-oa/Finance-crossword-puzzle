@@ -1,15 +1,39 @@
 nav { 
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: fit-content;
     height: 70px;
     display: flex;
+    flex-direction: row;
     /* flex-direction: column; */
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     }
+
+@media only screen and (max-width: 700px) {
+    nav {
+        margin-bottom: 120px;
+    }
+    .crossword_pic {
+        display: none;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1080px) {
+   .crossword_pic {
+    width: 700px;
+   }
+   .Details {
+    width: 500px;
+   }
+}
+
+
 
 .nav-list {
         display: flex;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
         list-style-type: none;
 }
 
@@ -22,6 +46,8 @@ li {
     color: darkblue;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
+    margin: 0;
 }
 
 .con_text {
@@ -53,19 +79,20 @@ body {
 }
 
 .front_page {
-    width: 1650px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     /* height: auto; */
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
+
 }
 
 .Details {
-    width: 600;
+    max-width: 400px;
     /* height: 300px; */
-    margin: 130px;
+    /* margin: 130px; */
 }
 
 .crossword_pic {
@@ -81,7 +108,7 @@ body {
 }
 
 .Sect1 {
-    width: 1900px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
