@@ -5,7 +5,8 @@ their knowledge of key financial terms. The crossword puzzle is implemented usin
 
 ## Demo
 
-A live demo of the crossword puzzle can be found [here](https://finance-crossword-puzzle.github.io)
+A live demo of the crossword puzzle can be found [here](https://williams-oa.github.io/Finance-crossword-puzzle.github.io/)
+
 
 ## Table of Contents
 
@@ -33,7 +34,7 @@ To run the crossword puzzle locally, follow these steps:
 
 To play the crossword puzzle, follow these instructions:
 
-1. Access the live demo of the puzzle [here](https://finance-crossword-puzzle.github.io)
+1. Access the live demo of the puzzle [here](https://williams-oa.github.io/Finance-crossword-puzzle.github.io/)
 2. Read the clues provided for each term.
 3. Type your answers in uppercase letters.
 4. Submit your answers by clicking the submit button or pressing Enter.
